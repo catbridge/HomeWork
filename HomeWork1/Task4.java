@@ -8,7 +8,7 @@ public class Task4 { //Решение первым методом, без return
         boolean weekday = scanner.nextBoolean();
         System.out.println("Today is a vacation? (true//false");
         boolean vacation = scanner.nextBoolean();
-        if (!weekday || vacation){
+        if (!weekday || vacation){ //Если не рабочий день и выходной
         System.out.println("Сегодня можно спать");}
         else {
             System.out.println("Надо идти на работу");
