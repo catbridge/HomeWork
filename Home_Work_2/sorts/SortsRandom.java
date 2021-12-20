@@ -1,5 +1,6 @@
 package Home_Work_2.sorts;
-public class SortsUtils {
+import Home_Work_2.arrays.ArrayUtils1;
+public class SortsRandom {
     public static void main(String[] args) {
         System.out.println("Сортировка методом пузырька: ");
         BubbleSort();
@@ -11,8 +12,7 @@ public class SortsUtils {
     }
 
     public static void BubbleSort (){ //Пузырьковая сортировка
-        int[] a = {9, 1, 5, 99, 9, 9};
-
+        int[] a = ArrayUtils1.arrayRandom(5, 99);
         System.out.print("[");
         for (int num : a) { //Массив до сортировки
             System.out.print(num + ",");
@@ -40,7 +40,7 @@ public class SortsUtils {
 
     public static void ShakeSort (){ //Шейкерная сортировка
 
-        int[] array = {9, 1, 5, 99, 9, 9};
+        int[] array = ArrayUtils1.arrayRandom(5, 99);
         int left = 0; //левая граница
         int right = array.length - 1; //правая граница
         System.out.println();

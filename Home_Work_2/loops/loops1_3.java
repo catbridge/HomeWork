@@ -1,9 +1,9 @@
-package loops;
+package Home_Work_2.loops;
 
 import java.util.Scanner;
 
 public class loops1_3 {
-    public static void main(String[] args) {
+    public static void main(String[] arr) {
         Scanner console = new Scanner(System.in);
         System.out.println("Введите число");
         double number = console.nextDouble();

@@ -1,9 +1,9 @@
-package loops;
+package Home_Work_2.loops;
 
 import java.util.Scanner;
 
 public class loops1 {
-    public static void main(String[] args) {
+    public static void main(String[] arr) {
         Scanner console = new Scanner(System.in);
         System.out.println("Введите положительное число от 1 до 25 "); //После 25 происходит переполнение
         int number = console.nextInt();

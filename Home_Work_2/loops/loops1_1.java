@@ -1,9 +1,9 @@
-package loops;
+package Home_Work_2.loops;
 
 import java.util.Scanner;
 
 public class loops1_1 { //Решение с  использованием рекурсии!
-    public static void main(String[] args) {
+    public static void main(String[] arr) {
         Scanner console = new Scanner(System.in);
         System.out.println("Введите положительное число ");
         int number = console.nextInt();

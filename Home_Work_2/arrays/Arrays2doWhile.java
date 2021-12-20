@@ -1,9 +1,9 @@
 package Home_Work_2.arrays;
 
-public class Arrays2while {
+public class Arrays2doWhile {
     public static void main(String[] args) { //Только оператор while
-        first();
-        second();
+        //first();
+        //second();
         third();
 
     }
@@ -12,13 +12,10 @@ public class Arrays2while {
         int [] container = ArrayUtils.arrayFromConsole();
         System.out.print("Массив с элементами:  ");
         int i = 0; //Здесь будем считать индекс.
-        while (i < container.length){
+        do {
             System.out.print(container[i]);
             i++; //После каждого прохода по циклу увеличиваем переменную с индексом.
-            if(i != container.length){
-                System.out.print(" , ");
-            }
-        }
+        }while (i < container.length);
 
         System.out.println(" ");
         System.out.println("__________");
@@ -32,12 +29,12 @@ public class Arrays2while {
         int [] container = ArrayUtils.arrayFromConsole();
         System.out.println("Каждый воторой элемент в массиве: ");
         int i = 0; //Здесь будем считать индекс.
-        while (i < container.length){
+        do {
             i++; //После каждого прохода по циклу увеличиваем переменную с индексом.
             if (i % 2 != 0){
                 System.out.println(container[i]);
             }
-        }
+        }while (i < container.length - 1); //такое условие чтоб не выходить за длинну массива.
         System.out.println("__________");
     }
 
@@ -46,11 +43,12 @@ public class Arrays2while {
         int [] container = ArrayUtils.arrayFromConsole();
         System.out.println("Все элементы массива в обратном порядке: ");
         int i = container.length + 1;
-        while (i > 1){
+        do {
             i--; //После каждого прохода по циклу уменьшаем переменную с индексом.
             System.out.print(container[i - 1] + ", ");
 
-        }
+        } while (i > 1);
+
         System.out.println("");
         System.out.println("__________");
     }

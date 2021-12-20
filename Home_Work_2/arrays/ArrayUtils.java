@@ -1,15 +1,9 @@
-package Home_Work_2.loops;
+package Home_Work_2.arrays;
 
 import java.util.Arrays;
 import java.util.Scanner;
 
 public class ArrayUtils {
-    public static void main(String[] args) {
-        int [] container = arrayFromConsole();
-        System.out.println("Был создан массив: " + Arrays.toString(container));
-
-
-    }
 
     public static int[] arrayFromConsole(){
         Scanner console = new Scanner(System.in);
