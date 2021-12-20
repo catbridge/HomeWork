@@ -1,0 +1,22 @@
+package Home_Work_2.loops;
+
+import java.util.Arrays;
+import java.util.Random;
+
+public class ArrayUtils1 {
+    public static void main(String[] args) {
+        int [] container = arrayRandom(5, 100);
+        System.out.println("Был создан массив размером 5 с элементами " + Arrays.toString(container));
+
+    }
+
+    public static int[] arrayRandom(int size, int maxValueExclusion){
+        Random rnd = new Random();
+        int [] container = new int[5];
+        for (int i = 0; i < size; i++) {
+            container[i] = rnd.nextInt(99);
+        }
+        return container;
+
+    }
+}
