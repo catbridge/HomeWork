@@ -20,3 +20,5 @@
 1. SortsUtils - Задание 4.1-4.3.
 2. SortsRandom - Задание 4.4
 3. SortsConsole - Задание 4.5
+
+4. bubble-sort.drawio и babble-sort.pdf - Задание 3
