@@ -1,0 +1,17 @@
+HomeWork5 - README
+
+    1.HomeWork5Main - Main, точка входа.
+
+    2. source.Война и мир_книгаю.txt - файл, из которого берется текст.
+
+    3. api.ISearchEngine - интерфейс ISearchEngine, задание 3
+
+    4. dto.TextFromFileStatistic - Задание 2.
+       dto.MapValueComparator - Компаратор для сравнения Map по значению
+
+    5. utils.TextReader  - содержит метод, реализующий чтение текста из текстового файла
+       utils.EasySearch - Задание 4.1
+       utils.RegExSearch - Задание 4.2
+       utils.SearchEngineNormalizer - Задание 4.3
+       utils.RegExSearchNormalizer - Задание 4.4
+
