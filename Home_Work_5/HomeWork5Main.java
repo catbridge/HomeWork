@@ -57,7 +57,7 @@ public class HomeWork5Main {
         //топ редких слов
         topWords = textFromFileStatistic.getRareWords(wordsNumberForTop);
 
-        System.out.println("Топ " + wordsNumberForTop + " популярных слов:");
+        System.out.println("Топ " + wordsNumberForTop + " редких слов:");
         System.out.println(textFromFileStatistic.topWordToString(topWords));
 
         //4.1 EasySearch / без учета регистра
